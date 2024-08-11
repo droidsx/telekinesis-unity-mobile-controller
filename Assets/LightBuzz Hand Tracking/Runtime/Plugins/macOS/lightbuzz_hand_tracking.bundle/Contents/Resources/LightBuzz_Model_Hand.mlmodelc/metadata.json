@@ -1,0 +1,93 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float32",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 63)",
+        "shortDescription" : "",
+        "shape" : "[1, 63]",
+        "name" : "Identity",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 1]",
+        "name" : "Identity_1",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 1]",
+        "name" : "Identity_2",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 63)",
+        "shortDescription" : "",
+        "shape" : "[1, 63]",
+        "name" : "Identity_3",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 4,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "Squeeze" : 1,
+      "PoolingAverage" : 1,
+      "Transpose" : 1,
+      "BatchedMatmul" : 4,
+      "Clip" : 32,
+      "Convolution" : 47,
+      "ActivationSigmoid" : 2,
+      "AddBroadcastable" : 9
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "5.0",
+      "com.github.apple.coremltools.source" : "onnx==1.14.1"
+    },
+    "generatedClassName" : "LightBuzz_Model_Hand",
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 224 × 224 × 3)",
+        "shortDescription" : "",
+        "shape" : "[1, 224, 224, 3]",
+        "name" : "input_1",
+        "type" : "MultiArray"
+      }
+    ],
+    "method" : "predict"
+  }
+]

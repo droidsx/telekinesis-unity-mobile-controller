@@ -1,0 +1,187 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+using NativeWebSocket;
+
+public class Connection : MonoBehaviour
+{
+    WebSocket websocket;
+    public static Connection c;
+    public Exercise playerInstance;
+
+    public ExerciseReceivedData ExerciseReceivedInfo;
+    public List<Button> ExerciseIDTrigger;
+    private void Awake()
+    {
+        c = this;
+        Clear();
+    }
+
+    public void Clear()
+    {
+        playerInstance = new Exercise();
+
+        playerInstance.sensor_ID = 114;
+        playerInstance.exersice_name = "";
+        playerInstance.current_degree = 0;
+        playerInstance.current_cm = 0;
+        playerInstance.velocity_degree = 0;
+        playerInstance.velocity_cm = 0;
+        playerInstance.time_millis = "0";
+        playerInstance.reps = 0;
+        playerInstance.sets = 0;
+        playerInstance.reps_percentage = 0;
+        Invoke("ResetJSON", 0.01f);
+    }
+
+    async void Start()
+    {
+        // websocket = new WebSocket("ws://165.22.179.18:5080/ws/woit-sense/72");
+        // viewing data use this url: http://165.22.179.18:5080
+        // websocket = new WebSocket("ws://165.22.179.18:5080/ws/edgaras"); <-- sending JSON OBJECT {"woit_sense_client_ID": "114", "exercise_ID":"1", "start":"1"} from this URL
+        websocket = new WebSocket("ws://165.22.179.18:5080/ws/woit-sense/114"); //<-- receiving and sending data using this URL
+
+        websocket.OnOpen += () =>
+        {
+            Debug.Log("Connection open! (For Sending Data)");
+        };
+
+        websocket.OnError += (e) =>
+        {
+            Debug.Log("Error! " + e);
+        };
+
+        websocket.OnClose += (e) =>
+        {
+            Debug.Log("Connection open! (For Sending Data)");
+        };
+
+        websocket.OnMessage += (bytes) =>
+        {
+            var message = System.Text.Encoding.UTF8.GetString(bytes);
+            OnMessage(message);
+        };
+
+        // Keep sending messages at every 0.01s
+       InvokeRepeating("SendWebSocketMessage", 0.0f, 0.01f);
+        await websocket.Connect();
+    }
+
+    void OnMessage(string json)
+    {
+        // {"exercise_ID: "1", "start": "1"}
+        ExerciseReceivedInfo = JsonUtility.FromJson<ExerciseReceivedData>(json);
+
+        Debug.Log("Received JSON: " + json);
+        if (ExerciseReceivedInfo.exercise_ID >= 0 && ExerciseReceivedInfo.exercise_ID <= 8)
+        {
+            //                           set Target                                // [Blend]
+            if (ExerciseReceivedInfo.sets_target >= 0 && ExerciseReceivedInfo.sets_target <= 12)
+            {
+                ExerciseReceivedInfo.websocket_data = true;
+                CategoryWithWeights.OverallRepetitionAmount = ExerciseReceivedInfo.reps_target * ExerciseReceivedInfo.sets_target;
+                Debug.Log("Received JSON set_Target: " + json);
+            }
+            //                           rep Target                                 //[Blend]
+            if (ExerciseReceivedInfo.reps_target >= 0 && ExerciseReceivedInfo.reps_target <= 30)
+            {
+                ExerciseReceivedInfo.websocket_data = true;
+                CategoryWithWeights.RepetitionGoalPerSet = ExerciseReceivedInfo.reps_target;
+                Debug.Log("Received JSON rep_Target: " + json);
+            }
+            ExerciseIDTrigger[0].onClick.Invoke();
+            ExerciseIDTrigger[ExerciseReceivedInfo.exercise_ID].onClick.Invoke();
+            Debug.Log("Excersice ID  " + json);
+        }
+        else
+        {
+            Debug.Log("No Such Exercise Defined");
+        }
+
+        if (ExerciseReceivedInfo.start == 1)
+        {
+            CancelInvoke("SendWebSocketMessage");
+          
+            InvokeRepeating("SendWebSocketMessage", 0.0f, 0.01f);
+
+
+           
+        }
+        else 
+        {
+            Debug.Log("Clear!!: ");
+            Debug.Log("Clear!!: ");
+            Debug.Log("Clear!!: ");
+            Debug.Log("Clear!!: " + json);
+            Clear();
+            CancelInvoke("SendWebSocketMessage");
+
+        }
+    
+
+    }
+
+    void Update()
+    {
+#if !UNITY_WEBGL || UNITY_EDITOR
+        websocket.DispatchMessageQueue();
+#endif
+    }
+
+    async void SendWebSocketMessage()
+    {
+        if (websocket.State == WebSocketState.Open)
+        {
+            string playerToJson = JsonUtility.ToJson(playerInstance);
+            if (!string.IsNullOrEmpty(playerInstance.exersice_name))
+            {
+                await websocket.SendText(playerToJson);
+                Debug.Log("Sending JSON: " + playerToJson);
+            }
+        }
+    }
+    async void ResetJSON()
+    {  
+        if (websocket.State == WebSocketState.Open)
+        {
+            string playerToJson = JsonUtility.ToJson(playerInstance);
+            await websocket.SendText(playerToJson);
+            Debug.Log("Sending JSON (RESET): " + playerToJson);
+        }
+    }
+
+    private async void OnApplicationQuit()
+    {
+        await websocket.Close();
+    }
+
+}
+
+[Serializable]
+public class Exercise
+{
+    public int sensor_ID;
+    public string exersice_name;
+    public int current_degree;
+    public float current_cm;
+    public int velocity_degree;
+    public float velocity_cm;
+    public string time_millis;
+    public int reps;
+    public int sets;                    // [Blend] set og rep håndtering for websocket
+    public int reps_percentage;
+}
+
+[System.Serializable]
+public class ExerciseReceivedData
+{
+    public int exercise_ID;
+    public int sets_target;             // [Blend] set og rep håndtering for websocket
+    public int reps_target;             // [Blend] set og rep håndtering for websocket
+    public int start;
+    public bool websocket_data = false; // [Blend] set og rep håndtering for websocket
+
+}

@@ -1,0 +1,48 @@
+{
+  "name": "com.lightbuzz.handtracking-ios_android",
+  "version": "1.1.0",
+  "displayName": "LightBuzz Hand & Finger Tracking [iOS + Android]",
+  "description": "Hand & Finger Tracking SDK.",
+  "unity": "2020.3",
+  "documentationUrl": "https://handtracking.lightbuzz.com",
+  "changelogUrl": "CHANGELOG.md",
+  "licensesUrl": "Licenses",
+  "samples": [
+    {
+      "displayName": "Webcam (2D)",
+      "description": "Track hands and fingers using a webcam, and visualize the results on a 2D Canvas.",
+      "path": "~Samples/Webcam (2D)"
+    },
+    {
+      "displayName": "Webcam (3D)",
+      "description": "Track hands and fingers using a webcam, and visualize the results in the 3D space.",
+      "path": "~Samples/Webcam (3D)"
+    },
+    {
+      "displayName": "Video",
+      "description": "Track hands and fingers on a video file (mp4, avi, etc.)",
+      "path": "~Samples/Video"
+    },
+    {
+      "displayName": "Picture",
+      "description": "Track hands and fingers on a picture file (jpg, png, etc.)",
+      "path": "~Samples/Picture"
+    }
+  ],
+  "keywords": [
+    "lightbuzz",
+    "hand",
+    "finger",
+    "tracking",
+    "webcam",
+    "video",
+    "2D",
+    "3D"
+  ],
+  "author": {
+    "name": "LightBuzz Inc.",
+    "email": "info@lightbuzz.com",
+    "url": "https://lightbuzz.com"
+  },
+  "type": "tool"
+}

@@ -1,0 +1,690 @@
+{
+  "layer_shapes" : {
+    "Relu6__86:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_31\/Relu6;model_1\/model\/batch_normalization_46\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_15\/depthwise" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/batch_normalization_14\/FusedBatchNormV3;model_1\/model\/conv2d_9\/Conv2D1" : {
+      "k" : 40,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/re_lu_26\/Relu6;model_1\/model\/batch_normalization_39\/FusedBatchNormV3;model_1\/model\/batch_normalization_46\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_15\/depthwise;model_1\/model\/conv2d_26\/Conv2D" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_10\/Relu6;model_1\/model\/batch_normalization_15\/FusedBatchNormV3;model_1\/model\/batch_normalization_16\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_5\/depthwise;model_1\/model\/conv2d_10\/Conv2D" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/re_lu_18\/Relu6;model_1\/model\/batch_normalization_27\/FusedBatchNormV3;model_1\/model\/batch_normalization_34\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_11\/depthwise;model_1\/model\/conv2d_18\/Conv2D" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_25\/Relu6;model_1\/model\/batch_normalization_37\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_12\/depthwise;model_1\/model\/depthwise_conv2d_15\/depthwise" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_3\/Relu6;model_1\/model\/batch_normalization_4\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_1\/depthwise" : {
+      "k" : 64,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/global_average_pooling2d\/Mean_Squeeze__591:0" : {
+      "k" : 1,
+      "w" : 1152,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "Identity" : {
+      "k" : 1,
+      "w" : 63,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "Relu6__63:0" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/batch_normalization_41\/FusedBatchNormV3;model_1\/model\/conv2d_29\/Conv2D;model_1\/model\/conv2d_27\/Conv2D1" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__28:0" : {
+      "k" : 144,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "Relu6__51:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__16:0" : {
+      "k" : 64,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "Identity_2" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "Relu6__88:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__76:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_11\/Relu6;model_1\/model\/batch_normalization_16\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_5\/depthwise" : {
+      "k" : 240,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/add_3\/add" : {
+      "k" : 80,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_20\/Relu6;model_1\/model\/batch_normalization_30\/FusedBatchNormV3;model_1\/model\/batch_normalization_34\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_11\/depthwise;model_1\/model\/conv2d_20\/Conv2D" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/add_8\/add" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_6\/Relu6;model_1\/model\/batch_normalization_9\/FusedBatchNormV3;model_1\/model\/batch_normalization_10\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_3\/depthwise;model_1\/model\/conv2d_6\/Conv2D" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/re_lu_17\/Relu6;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/conv_handflag\/MatMul;model_1\/model\/conv_handflag\/BiasAdd_Gemm__100:0" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "model_1\/model\/batch_normalization_26\/FusedBatchNormV3;model_1\/model\/conv2d_21\/Conv2D;model_1\/model\/conv2d_17\/Conv2D1" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/batch_normalization_44\/FusedBatchNormV3;model_1\/model\/conv2d_29\/Conv2D1" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/batch_normalization_8\/FusedBatchNormV3;model_1\/model\/conv2d_5\/Conv2D1" : {
+      "k" : 24,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/global_average_pooling2d\/Mean" : {
+      "k" : 1152,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "model_1\/model\/re_lu_27\/Relu6;model_1\/model\/batch_normalization_40\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_13\/depthwise;model_1\/model\/depthwise_conv2d_15\/depthwise" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_7\/Relu6;model_1\/model\/batch_normalization_10\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_3\/depthwise" : {
+      "k" : 144,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "Relu6__53:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__41:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_2\/Relu6;model_1\/model\/batch_normalization_3\/FusedBatchNormV3;model_1\/model\/batch_normalization_4\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_1\/depthwise;model_1\/model\/conv2d_2\/Conv2D" : {
+      "k" : 64,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "Relu6__18:0" : {
+      "k" : 64,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "Relu6__78:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__66:0" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/add_1\/add" : {
+      "k" : 40,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/add_6\/add" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/batch_normalization_32\/FusedBatchNormV3;model_1\/model\/conv2d_21\/Conv2D1" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/add\/add" : {
+      "k" : 24,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/re_lu_4\/Relu6;model_1\/model\/batch_normalization_6\/FusedBatchNormV3;model_1\/model\/batch_normalization_10\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_3\/depthwise;model_1\/model\/conv2d_4\/Conv2D" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "Relu6__43:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_29\/Relu6;model_1\/model\/batch_normalization_43\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_14\/depthwise;model_1\/model\/depthwise_conv2d_15\/depthwise" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__31:0" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/batch_normalization_29\/FusedBatchNormV3;model_1\/model\/conv2d_21\/Conv2D;model_1\/model\/conv2d_19\/Conv2D1" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_24\/Relu6;model_1\/model\/batch_normalization_36\/FusedBatchNormV3;model_1\/model\/batch_normalization_46\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_15\/depthwise;model_1\/model\/conv2d_24\/Conv2D" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_19\/Relu6;model_1\/model\/batch_normalization_28\/FusedBatchNormV3;model_1\/model\/batch_normalization_34\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_11\/depthwise;model_1\/model\/depthwise_conv2d_9\/depthwise" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__68:0" : {
+      "k" : 672,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__56:0" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/batch_normalization_5\/FusedBatchNormV3;model_1\/model\/conv2d_5\/Conv2D;model_1\/model\/conv2d_3\/Conv2D1" : {
+      "k" : 24,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "Identity_3" : {
+      "k" : 1,
+      "w" : 63,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "model_1\/model\/re_lu_21\/Relu6;model_1\/model\/batch_normalization_31\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_10\/depthwise;model_1\/model\/depthwise_conv2d_11\/depthwise" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/conv_handedness\/MatMul;model_1\/model\/conv_handedness\/BiasAdd_Gemm__101:0" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "input_1" : {
+      "k" : 224,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 224
+    },
+    "model_1\/model\/batch_normalization_17\/FusedBatchNormV3;model_1\/model\/conv2d_15\/Conv2D;model_1\/model\/conv2d_11\/Conv2D1" : {
+      "k" : 80,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_9\/Relu6;model_1\/model\/batch_normalization_13\/FusedBatchNormV3;model_1\/model\/batch_normalization_16\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_5\/depthwise;model_1\/model\/depthwise_conv2d_4\/depthwise" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/add_4\/add" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__33:0" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "Relu6__21:0" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/batch_normalization_23\/FusedBatchNormV3;model_1\/model\/conv2d_15\/Conv2D1" : {
+      "k" : 80,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__58:0" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__81:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu\/Relu6;model_1\/model\/batch_normalization\/FusedBatchNormV3;model_1\/model\/batch_normalization_1\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d\/depthwise;model_1\/model\/conv2d_5\/Conv2D;model_1\/model\/conv2d\/Conv2D" : {
+      "k" : 24,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "Relu6__46:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/batch_normalization_2\/FusedBatchNormV3;model_1\/model\/conv2d_1\/Conv2D1" : {
+      "k" : 16,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "model_1\/model\/batch_normalization_35\/FusedBatchNormV3;model_1\/model\/conv2d_29\/Conv2D;model_1\/model\/conv2d_23\/Conv2D1" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_30\/Relu6;model_1\/model\/batch_normalization_45\/FusedBatchNormV3;model_1\/model\/batch_normalization_46\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_15\/depthwise;model_1\/model\/conv2d_30\/Conv2D" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_28\/Relu6;model_1\/model\/batch_normalization_42\/FusedBatchNormV3;model_1\/model\/batch_normalization_46\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_15\/depthwise;model_1\/model\/conv2d_28\/Conv2D" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_22\/Relu6;model_1\/model\/batch_normalization_33\/FusedBatchNormV3;model_1\/model\/batch_normalization_34\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_11\/depthwise;model_1\/model\/conv2d_22\/Conv2D" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__23:0" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "Identity_1" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "Relu6__11:0" : {
+      "k" : 24,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "model_1\/model\/add_2\/add" : {
+      "k" : 80,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__83:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/batch_normalization_20\/FusedBatchNormV3;model_1\/model\/conv2d_15\/Conv2D;model_1\/model\/conv2d_13\/Conv2D1" : {
+      "k" : 80,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/add_7\/add" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__71:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "Relu6__48:0" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_5\/Relu6;model_1\/model\/batch_normalization_7\/FusedBatchNormV3;model_1\/model\/batch_normalization_10\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_3\/depthwise;model_1\/model\/depthwise_conv2d_2\/depthwise" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "Relu6__36:0" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/re_lu_15\/Relu6;model_1\/model\/batch_normalization_22\/FusedBatchNormV3;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise;model_1\/model\/depthwise_conv2d_7\/depthwise" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_12\/Relu6;model_1\/model\/batch_normalization_18\/FusedBatchNormV3;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise;model_1\/model\/conv2d_12\/Conv2D" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/batch_normalization_38\/FusedBatchNormV3;model_1\/model\/conv2d_29\/Conv2D;model_1\/model\/conv2d_25\/Conv2D1" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/batch_normalization_11\/FusedBatchNormV3;model_1\/model\/conv2d_9\/Conv2D;model_1\/model\/conv2d_7\/Conv2D1" : {
+      "k" : 40,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/re_lu\/Relu6;model_1\/model\/batch_normalization\/FusedBatchNormV3;model_1\/model\/batch_normalization_1\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d\/depthwise;model_1\/model\/conv2d_5\/Conv2D;model_1\/model\/conv2d\/Conv2D__102:0" : {
+      "k" : 3,
+      "w" : 224,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 224
+    },
+    "Relu6__13:0" : {
+      "k" : 24,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "model_1\/model\/re_lu_14\/Relu6;model_1\/model\/batch_normalization_21\/FusedBatchNormV3;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise;model_1\/model\/conv2d_14\/Conv2D" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__73:0" : {
+      "k" : 1152,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    },
+    "model_1\/model\/re_lu_16\/Relu6;model_1\/model\/batch_normalization_24\/FusedBatchNormV3;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise;model_1\/model\/conv2d_16\/Conv2D" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__38:0" : {
+      "k" : 240,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_13\/Relu6;model_1\/model\/batch_normalization_19\/FusedBatchNormV3;model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_8\/depthwise;model_1\/model\/depthwise_conv2d_6\/depthwise" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__61:0" : {
+      "k" : 672,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "Relu6__26:0" : {
+      "k" : 144,
+      "w" : 56,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 56
+    },
+    "model_1\/model\/add_5\/add" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 14
+    },
+    "model_1\/model\/re_lu_8\/Relu6;model_1\/model\/batch_normalization_12\/FusedBatchNormV3;model_1\/model\/batch_normalization_16\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_5\/depthwise;model_1\/model\/conv2d_8\/Conv2D" : {
+      "k" : 240,
+      "w" : 28,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 28
+    },
+    "model_1\/model\/re_lu_1\/Relu6;model_1\/model\/batch_normalization_1\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d\/depthwise;model_1\/model\/conv2d_5\/Conv2D" : {
+      "k" : 24,
+      "w" : 112,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 112
+    },
+    "model_1\/model\/re_lu_23\/Relu6;model_1\/model\/batch_normalization_34\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_11\/depthwise" : {
+      "k" : 672,
+      "w" : 7,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 7
+    }
+  }
+}

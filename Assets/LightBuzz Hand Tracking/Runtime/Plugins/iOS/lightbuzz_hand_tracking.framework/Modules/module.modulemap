@@ -1,0 +1,6 @@
+framework module lightbuzz_hand_tracking {
+  umbrella header "lightbuzz_hand_tracking.h"
+  export *
+
+  module * { export * }
+}

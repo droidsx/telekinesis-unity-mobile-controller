@@ -1,0 +1,74 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float32",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2016 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 2016, 18]",
+        "name" : "Identity",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2016 × 1)",
+        "shortDescription" : "",
+        "shape" : "[1, 2016, 1]",
+        "name" : "Identity_1",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 4,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "ConstantPad" : 3,
+      "ReshapeStatic" : 4,
+      "ActivationPReLU" : 31,
+      "Transpose" : 5,
+      "UpsampleBiLinear" : 2,
+      "ConcatND" : 2,
+      "Convolution" : 63,
+      "AddBroadcastable" : 30,
+      "PoolingMax" : 4
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "5.0",
+      "com.github.apple.coremltools.source" : "onnx==1.14.1"
+    },
+    "generatedClassName" : "LightBuzz_Model_Palm",
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 192 × 192 × 3)",
+        "shortDescription" : "",
+        "shape" : "[1, 192, 192, 3]",
+        "name" : "input_1",
+        "type" : "MultiArray"
+      }
+    ],
+    "method" : "predict"
+  }
+]

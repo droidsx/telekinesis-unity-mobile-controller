@@ -1,0 +1,1019 @@
+{
+  "layer_shapes" : {
+    "model_1\/model\/batch_normalization_3\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d_3\/Conv2D1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu\/add;model_1\/model\/p_re_lu\/Relu;model_1\/model\/p_re_lu\/Neg_1;model_1\/model\/p_re_lu\/Relu_1;model_1\/model\/p_re_lu\/mul1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/add_26\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_4\/depthwise2" : {
+      "k" : 32,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/depthwise_conv2d_22\/depthwise1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_20\/depthwise1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/batch_normalization_10\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_10\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_15\/add;model_1\/model\/p_re_lu_15\/Relu;model_1\/model\/p_re_lu_15\/Neg_1;model_1\/model\/p_re_lu_15\/Relu_1;model_1\/model\/p_re_lu_15\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/p_re_lu_19\/add;model_1\/model\/p_re_lu_19\/Relu;model_1\/model\/p_re_lu_19\/Neg_1;model_1\/model\/p_re_lu_19\/Relu_1;model_1\/model\/p_re_lu_19\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_18\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_18\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/max_pooling2d_1\/MaxPool" : {
+      "k" : 64,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/regressor_palm_16_NO_PRUNING\/BiasAdd;model_1\/model\/regressor_palm_16_NO_PRUNING\/Conv2D;model_1\/model\/regressor_palm_16_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1" : {
+      "k" : 108,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_23\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_23\/Conv2D1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/reshaped_regressor_palm_16\/Reshape" : {
+      "k" : 1,
+      "w" : 18,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 864
+    },
+    "model_1\/model\/reshaped_classifier_palm_16\/Reshape" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 864
+    },
+    "model_1\/model\/regressor_palm_8_NO_PRUNING\/BiasAdd;model_1\/model\/regressor_palm_8_NO_PRUNING\/Conv2D;model_1\/model\/regressor_palm_8_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1" : {
+      "k" : 36,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d\/Conv2D1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/batch_normalization_25\/FusedBatchNormV3;model_1\/model\/conv2d_25\/BiasAdd\/ReadVariableOp\/resource;model_1\/model\/conv2d_25\/BiasAdd;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_25\/Conv2D" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_2\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d_2\/Conv2D1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu_1\/add;model_1\/model\/p_re_lu_1\/Relu;model_1\/model\/p_re_lu_1\/Neg_1;model_1\/model\/p_re_lu_1\/Relu_1;model_1\/model\/p_re_lu_1\/mul1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/add\/add" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/add_4\/add" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_3\/add;model_1\/model\/p_re_lu_3\/Relu;model_1\/model\/p_re_lu_3\/Neg_1;model_1\/model\/p_re_lu_3\/Relu_1;model_1\/model\/p_re_lu_3\/mul1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/add_15\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_11\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_11\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/reshaped_classifier_palm_8\/Reshape" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1152
+    },
+    "model_1\/model\/add_25\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_19\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_19\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_3\/depthwise1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/depthwise_conv2d_9\/depthwise2" : {
+      "k" : 64,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d_15\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_11\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_24\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_24\/Conv2D1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_13\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_1\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d_1\/Conv2D1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu_21\/add;model_1\/model\/p_re_lu_21\/Relu;model_1\/model\/p_re_lu_21\/Neg_1;model_1\/model\/p_re_lu_21\/Relu_1;model_1\/model\/p_re_lu_21\/mul1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/regressor_palm_16_NO_PRUNING\/BiasAdd;model_1\/model\/regressor_palm_16_NO_PRUNING\/Conv2D;model_1\/model\/regressor_palm_16_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1__308:0" : {
+      "k" : 12,
+      "w" : 108,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_28\/FusedBatchNormV3;model_1\/model\/conv2d_28\/BiasAdd\/ReadVariableOp\/resource;model_1\/model\/conv2d_28\/BiasAdd;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_28\/Conv2D" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_3\/add" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu_2\/add;model_1\/model\/p_re_lu_2\/Relu;model_1\/model\/p_re_lu_2\/Neg_1;model_1\/model\/p_re_lu_2\/Relu_1;model_1\/model\/p_re_lu_2\/mul1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu_30\/add;model_1\/model\/p_re_lu_30\/Relu;model_1\/model\/p_re_lu_30\/Neg_1;model_1\/model\/p_re_lu_30\/Relu_1;model_1\/model\/p_re_lu_30\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d_5\/depthwise1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_4\/add;model_1\/model\/p_re_lu_4\/Relu;model_1\/model\/p_re_lu_4\/Neg_1;model_1\/model\/p_re_lu_4\/Relu_1;model_1\/model\/p_re_lu_4\/mul1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/batch_normalization_12\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_12\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_6\/add;model_1\/model\/p_re_lu_6\/Relu;model_1\/model\/p_re_lu_6\/Neg_1;model_1\/model\/p_re_lu_6\/Relu_1;model_1\/model\/p_re_lu_6\/mul1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_8\/add;model_1\/model\/p_re_lu_8\/Relu;model_1\/model\/p_re_lu_8\/Neg_1;model_1\/model\/p_re_lu_8\/Relu_1;model_1\/model\/p_re_lu_8\/mul1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/depthwise_conv2d_24\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_26\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_14\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/p_re_lu_11\/add;model_1\/model\/p_re_lu_11\/Relu;model_1\/model\/p_re_lu_11\/Neg_1;model_1\/model\/p_re_lu_11\/Relu_1;model_1\/model\/p_re_lu_11\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_9\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_9\/depthwise;model_1\/model\/conv2d_9\/Conv2D1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/add_24\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_8\/depthwise1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "input_1" : {
+      "k" : 192,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 192
+    },
+    "model_1\/model\/p_re_lu_20\/add;model_1\/model\/p_re_lu_20\/Relu;model_1\/model\/p_re_lu_20\/Neg_1;model_1\/model\/p_re_lu_20\/Relu_1;model_1\/model\/p_re_lu_20\/mul1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/p_re_lu_24\/add;model_1\/model\/p_re_lu_24\/Relu;model_1\/model\/p_re_lu_24\/Neg_1;model_1\/model\/p_re_lu_24\/Relu_1;model_1\/model\/p_re_lu_24\/mul1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/p_re_lu_28\/add;model_1\/model\/p_re_lu_28\/Relu;model_1\/model\/p_re_lu_28\/Neg_1;model_1\/model\/p_re_lu_28\/Relu_1;model_1\/model\/p_re_lu_28\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_2\/add" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "Identity_1" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2016
+    },
+    "model_1\/model\/batch_normalization_13\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_13\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_5\/add;model_1\/model\/p_re_lu_5\/Relu;model_1\/model\/p_re_lu_5\/Neg_1;model_1\/model\/p_re_lu_5\/Relu_1;model_1\/model\/p_re_lu_5\/mul1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_10\/add;model_1\/model\/p_re_lu_10\/Relu;model_1\/model\/p_re_lu_10\/Neg_1;model_1\/model\/p_re_lu_10\/Relu_1;model_1\/model\/p_re_lu_10\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_7\/add;model_1\/model\/p_re_lu_7\/Relu;model_1\/model\/p_re_lu_7\/Neg_1;model_1\/model\/p_re_lu_7\/Relu_1;model_1\/model\/p_re_lu_7\/mul1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_18\/add;model_1\/model\/p_re_lu_18\/Relu;model_1\/model\/p_re_lu_18\/Neg_1;model_1\/model\/p_re_lu_18\/Relu_1;model_1\/model\/p_re_lu_18\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/p_re_lu_14\/add;model_1\/model\/p_re_lu_14\/Relu;model_1\/model\/p_re_lu_14\/Neg_1;model_1\/model\/p_re_lu_14\/Relu_1;model_1\/model\/p_re_lu_14\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_9\/add;model_1\/model\/p_re_lu_9\/Relu;model_1\/model\/p_re_lu_9\/Neg_1;model_1\/model\/p_re_lu_9\/Relu_1;model_1\/model\/p_re_lu_9\/mul1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/batch_normalization_8\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_9\/depthwise;model_1\/model\/conv2d_8\/Conv2D1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/batch_normalization_26\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_26\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/p_re_lu_23\/add;model_1\/model\/p_re_lu_23\/Relu;model_1\/model\/p_re_lu_23\/Neg_1;model_1\/model\/p_re_lu_23\/Relu_1;model_1\/model\/p_re_lu_23\/mul1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/p_re_lu_27\/add;model_1\/model\/p_re_lu_27\/Relu;model_1\/model\/p_re_lu_27\/Neg_1;model_1\/model\/p_re_lu_27\/Relu_1;model_1\/model\/p_re_lu_27\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_19\/depthwise1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_17\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_13\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_9\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d_2\/depthwise1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/add_19\/add" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/add_23\/add" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/channel_padding_1\/Pad" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_1\/add" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "Resize__302:0" : {
+      "k" : 256,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_29\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/max_pooling2d\/MaxPool" : {
+      "k" : 32,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/batch_normalization_27\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_14\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_14\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_17\/add;model_1\/model\/p_re_lu_17\/Relu;model_1\/model\/p_re_lu_17\/Neg_1;model_1\/model\/p_re_lu_17\/Relu_1;model_1\/model\/p_re_lu_17\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/classifier_palm_16_NO_PRUNING\/BiasAdd;model_1\/model\/classifier_palm_16_NO_PRUNING\/Conv2D;model_1\/model\/classifier_palm_16_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1__312:0" : {
+      "k" : 12,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_7\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_9\/depthwise;model_1\/model\/conv2d_7\/Conv2D1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/depthwise_conv2d_10\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/reshaped_regressor_palm_8\/Reshape" : {
+      "k" : 1,
+      "w" : 18,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1152
+    },
+    "model_1\/model\/batch_normalization_29\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D;model_1\/model\/conv2d_29\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "Identity" : {
+      "k" : 1,
+      "w" : 18,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2016
+    },
+    "model_1\/model\/add_8\/add" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/add_12\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d_7\/depthwise1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/add_18\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_15\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_15\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_25\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_21\/depthwise1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/add_22\/add" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_23\/depthwise1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/batch_normalization_6\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_9\/depthwise;model_1\/model\/conv2d_6\/Conv2D1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/add_28\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "Resize__279:0" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_20\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_20\/Conv2D1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_27\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d\/Conv2D1__70:0" : {
+      "k" : 3,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 192
+    },
+    "model_1\/model\/add_7\/add" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/max_pooling2d_3\/MaxPool" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/max_pooling2d_2\/MaxPool" : {
+      "k" : 128,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_5\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_9\/depthwise;model_1\/model\/conv2d_5\/Conv2D1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/batch_normalization_30\/FusedBatchNormV3;model_1\/model\/conv2d_30\/Conv2D1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_16\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_16\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_11\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d_1\/depthwise1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/p_re_lu_13\/add;model_1\/model\/p_re_lu_13\/Relu;model_1\/model\/p_re_lu_13\/Neg_1;model_1\/model\/p_re_lu_13\/Relu_1;model_1\/model\/p_re_lu_13\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_21\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_21\/Conv2D1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/add_17\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_21\/add" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_18\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_14\/depthwise1" : {
+      "k" : 128,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_16\/depthwise1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/depthwise_conv2d_12\/depthwise1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_22\/add;model_1\/model\/p_re_lu_22\/Relu;model_1\/model\/p_re_lu_22\/Neg_1;model_1\/model\/p_re_lu_22\/Relu_1;model_1\/model\/p_re_lu_22\/mul1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/p_re_lu_26\/add;model_1\/model\/p_re_lu_26\/Relu;model_1\/model\/p_re_lu_26\/Neg_1;model_1\/model\/p_re_lu_26\/Relu_1;model_1\/model\/p_re_lu_26\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_27\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/depthwise_conv2d\/depthwise1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/regressor_palm_8_NO_PRUNING\/BiasAdd;model_1\/model\/regressor_palm_8_NO_PRUNING\/Conv2D;model_1\/model\/regressor_palm_8_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1__332:0" : {
+      "k" : 24,
+      "w" : 36,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/add_6\/add" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/classifier_palm_8_NO_PRUNING\/BiasAdd;model_1\/model\/classifier_palm_8_NO_PRUNING\/Conv2D;model_1\/model\/classifier_palm_8_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1" : {
+      "k" : 2,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/classifier_palm_8_NO_PRUNING\/BiasAdd;model_1\/model\/classifier_palm_8_NO_PRUNING\/Conv2D;model_1\/model\/classifier_palm_8_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1__336:0" : {
+      "k" : 24,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/batch_normalization_4\/FusedBatchNormV3;model_1\/model\/depthwise_conv2d_4\/depthwise;model_1\/model\/conv2d_4\/Conv2D1" : {
+      "k" : 32,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "model_1\/model\/channel_padding\/Pad" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/batch_normalization_17\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_17\/Conv2D1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/p_re_lu_12\/add;model_1\/model\/p_re_lu_12\/Relu;model_1\/model\/p_re_lu_12\/Neg_1;model_1\/model\/p_re_lu_12\/Relu_1;model_1\/model\/p_re_lu_12\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_16\/add;model_1\/model\/p_re_lu_16\/Relu;model_1\/model\/p_re_lu_16\/Neg_1;model_1\/model\/p_re_lu_16\/Relu_1;model_1\/model\/p_re_lu_16\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/classifier_palm_16_NO_PRUNING\/BiasAdd;model_1\/model\/classifier_palm_16_NO_PRUNING\/Conv2D;model_1\/model\/classifier_palm_16_NO_PRUNING\/BiasAdd\/ReadVariableOp\/resource1" : {
+      "k" : 6,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/batch_normalization_22\/FusedBatchNormV3;model_1\/model\/conv2d_27\/Conv2D;model_1\/model\/conv2d_22\/Conv2D1" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/depthwise_conv2d_6\/depthwise1" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "model_1\/model\/p_re_lu_25\/add;model_1\/model\/p_re_lu_25\/Relu;model_1\/model\/p_re_lu_25\/Neg_1;model_1\/model\/p_re_lu_25\/Relu_1;model_1\/model\/p_re_lu_25\/mul1" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_10\/add" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/p_re_lu_29\/add;model_1\/model\/p_re_lu_29\/Relu;model_1\/model\/p_re_lu_29\/Neg_1;model_1\/model\/p_re_lu_29\/Relu_1;model_1\/model\/p_re_lu_29\/mul1" : {
+      "k" : 128,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "model_1\/model\/channel_padding_2\/Pad" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_16\/add" : {
+      "k" : 256,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "model_1\/model\/add_20\/add" : {
+      "k" : 256,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "model_1\/model\/add_5\/add" : {
+      "k" : 64,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    }
+  }
+}
