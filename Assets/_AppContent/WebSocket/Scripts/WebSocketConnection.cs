@@ -11,7 +11,7 @@ public class WebSocketConnection : MonoBehaviour
     public TMPro.TextMeshProUGUI TextInfo;
 
     string DefaultWebSocketURL = "wss://droid-osmosis-1.onrender.com/";    //  Previous: "wss://droid-osmosis.onrender.com/"; 
- 
+
 
     public static WebSocketConnection Connection;
 
@@ -25,9 +25,29 @@ public class WebSocketConnection : MonoBehaviour
 
     private void Awake()
     {
+        string ClientType = "";
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            ClientType = "android";
+        }
+        else if (Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            ClientType = "ios";
+        }
+        else if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+        {
+            ClientType = "windows";
+        }
+        else if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
+        {
+            ClientType = "mac";
+        }
+
         Connection = this;
 
         HandPositionalInformation.clientId = SystemInfo.deviceUniqueIdentifier;
+        HandPositionalInformation.client_type = ClientType;
 
         Debug.Log(JsonUtility.ToJson(HandPositionalInformation));
         WebSocketURL = DefaultWebSocketURL;
@@ -473,6 +493,7 @@ public class WebSocketConnection : MonoBehaviour
 public class HandPositionalInformation
 {
     public string clientId;
+    public string client_type;
     public float timestamp = 0.01f;
     public HandInfo LeftHand;
     public HandInfo RightHand;

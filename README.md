@@ -18,20 +18,31 @@ Suggested schema -- feel free to clarify or adjust as makes sense. Let's use JSO
 ```
 
 Updated by EdgarasArt (2024.08.11)
-1) Unity3D 2022.3.24f1 version was used for building Hands and Fingers tracking application
-2) MainScene should be loaded once Unity3D project is opened
+1) Unity3D 2022.3.24f1 version was used for building Hands and Fingers tracking application.
+- I suggest installing Unity Hub and select Unity3D version for installation from there. Any Unity3D 2022.3.x version, where x - any number should be good.
+- After Unity3D installation select iOS module that is needed to export the app to Xcode and then accordingly from Xcode to iOS device or Testflight.
+
+2) MainScene should be loaded once Unity3D project is opened (Located in: Assets/_AppContent/Scenes).
+- File --> Build Settings --> Switch to iOS --> Build (it will build to Xcode).
+- Go to File --> Build Settings --> PlayerSettings if you need to change bundle identifier or set build/version numbers.
+
 3) Sending hands/fingers joints positional information over websocket handles WebSocketConnection.cs script.
 If Inputfield on the screen is left empty we use:
 string DefaultWebSocketURL = "wss://droid-osmosis-1.onrender.com/";
 From the moment we enter something else, the new websocket URL is used.
+
 4) HandManager.cs and HandVisual.cs is part of the used Lightbuzz plugin that is used within the scene (https://assetstore.unity.com/packages/tools/ai-ml-integration/hand-finger-tracking-ios-android-mac-windows-285126). The latter (HandVisual.cs) was modified in order to apply it to our needs.
+
 5) Based on Front/Back camera selection from the dropdown menu has impact on the way X/Y positions are acquired inverted of the joints, therefore, to avoid this additional conditions are added for each hand.
+
+
 
 
 **Classes for JSON structure:**
 public class HandPositionalInformation
 {
     public string clientId;
+	public string client_type;
     public float timestamp;
     public HandInfo LeftHand;
     public HandInfo RightHand;
@@ -61,6 +72,7 @@ public class HandPart
 **JSON structure example that is sent over the websocket:**
 {
    "clientId":"9dae853f1ce82e85ed2537a301f4e33db77564f8",
+   "client_type":"ios",
    "timestamp":0.009999999776482582,
    "LeftHand":{
       "wrist":{
